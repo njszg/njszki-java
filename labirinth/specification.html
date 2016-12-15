@@ -1,0 +1,61 @@
+<h3>Beadandó feladat (Java)</h3>
+
+<p>Határidő: 2016. december 15. (kiírástól számított 3 hét)</p>
+
+<p>
+    <b>Feladat:</b><br />
+    Készíts egy terminálos (konzolos) labirintus alkalmazást, amelyben a felhasználó egy karaktert vezérel
+    a nyílbillentyűk segítségével. (#matrix #billentyuzetkezeles)
+</p>
+
+<p>
+    A játékteret egy szöveges fájlból olvasd be, ahol a karakterek jelentik, hogy melyik pozíción mi található.
+    Az alábbi javallattól eltérhetsz: (#fajlkezeles #string)
+</p>
+
+<pre>
+# - fal
+  - folyossó (space)
+Q - kulcs
+M - Mberünk kezdőpozíciója
+</pre>
+
+<p>
+    <img src="labi.png" alt="labirintus képe" />
+</p>
+
+<p>
+    A felhasználó a folyossó és kulcs mezőkön tud közlekedni. A falakra nem tud lépni. Ezek öröklődéssel legyenek
+    megvalósítva, legyen egy közös "blokk" ősosztály, amelyből a konkrét implementációk származnak. A játékos
+    pozíciója szintén folyossó mezőnek számít. (#oroklodes #osztaly)
+</p>
+
+<p>
+    Amennyiben a játékos kulcs mezőn megnyomja a SPACE billentyűt, úgy a kulcsot felveszi és a kulcs mező átvált
+    folyosóra.
+</p>
+
+<p>
+    Számoljuk, és folyamatosan közöljük a felhasználóval, hogy hány kulcsból hányat gyűjtött össze eddig.
+</p>
+
+<p>
+    A játékos célja, hogy a pályán található összes kulcsot felvegye. Ekkor közöljük vele a nyerésének tényállását,
+    valamint írjuk ki, hogy a program indítása óta mennyi idő telt el. Ha erre üt egy ENTER-t a felhasználó,
+    akkor lépjünk ki a programból. (#date)
+</p>
+
+<p>
+    A megoldás lehet ennél bővebb, változatosabb, játékosabb, de ezek a minimum követelmények, amelyeket teljesítenie
+    kell. A megoldásban törekedj a strukturáltságra, az átláthatóságra. Ennek okán használd az OOP eszközeit.
+</p>
+
+<p>
+    <b>Beadás módja:</b><br />
+    <b>A)</b> E-mailben zip fájlban a hello tekercs turizsolt pötty hu e-mail címre.<br />
+    <b>B)</b> VAGY a github.com oldalra feltöltve és arról linket küldve a fenti e-mail címre.
+</p>
+
+<p style="text-align: right;"><i>
+    Turi Zsolt, 2016. november 24.
+</i></p>
